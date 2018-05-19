@@ -15,6 +15,10 @@
 <p>
     <pre>{{ $key }}</pre>
 </p>
+<h2>Salt</h2>
+<p>
+    <pre>{{ $salt }}</pre>
+</p>
 <h2>Input</h2>
 <input type="text" name="input" id="input">
 <button id="encrypt">encrypt</button>
