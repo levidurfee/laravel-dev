@@ -20,3 +20,5 @@ Route::get('/encryption', 'EncryptionController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/react-login', 'ApiAuthController@index');
+Route::post('/api/v1/login', 'ApiAuthController@login');
