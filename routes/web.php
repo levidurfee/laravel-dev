@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/encryption', 'EncryptionController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
